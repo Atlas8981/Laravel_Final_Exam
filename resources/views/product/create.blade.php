@@ -34,7 +34,7 @@
                 <span class="text-danger">{{ $errors->first('photo') }}</span>
                 <br>
                 {!! Form::submit('Create Product', array('class'=>'secondary-cart-btn')) !!}
-                <a class="btn btn-primary" href="{!! url('/product') !!}">List</a>
+                <a class="btn btn-primary" href="{!! url('/product') !!}">Back to list</a>
                 {!! Form::close() !!}
 
             </div>

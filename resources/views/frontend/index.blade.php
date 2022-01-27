@@ -51,19 +51,13 @@
     <div class="container">
         <div class="container">
             <div class="owl-carousel owl-theme">
-                {!! Html::image("/img/products/whatisacomputer_desktop_computers.jpg", "whatisacomputer_desktop_computers.jpg", array('width'=>'120')) !!}
-                {!! Html::image("/img/products/whatisacomputer_desktop_computers.jpg", "whatisacomputer_desktop_computers.jpg", array('width'=>'120')) !!}
-                {!! Html::image("/img/products/whatisacomputer_desktop_computers.jpg", "whatisacomputer_desktop_computers.jpg", array('width'=>'120')) !!}
-                {!! Html::image("/img/products/whatisacomputer_desktop_computers.jpg", "whatisacomputer_desktop_computers.jpg", array('width'=>'120')) !!}
-                {!! Html::image("/img/products/whatisacomputer_desktop_computers.jpg", "whatisacomputer_desktop_computers.jpg", array('width'=>'120')) !!}
-                {!! Html::image("/img/products/whatisacomputer_desktop_computers.jpg", "whatisacomputer_desktop_computers.jpg", array('width'=>'120')) !!}
-                {!! Html::image("/img/products/whatisacomputer_desktop_computers.jpg", "whatisacomputer_desktop_computers.jpg", array('width'=>'120')) !!}
-                {!! Html::image("/img/products/whatisacomputer_desktop_computers.jpg", "whatisacomputer_desktop_computers.jpg", array('width'=>'120')) !!}
-                {!! Html::image("/img/products/whatisacomputer_desktop_computers.jpg", "whatisacomputer_desktop_computers.jpg", array('width'=>'120')) !!}
-                {!! Html::image("/img/products/whatisacomputer_desktop_computers.jpg", "whatisacomputer_desktop_computers.jpg", array('width'=>'120')) !!}
-                {!! Html::image("/img/products/whatisacomputer_desktop_computers.jpg", "whatisacomputer_desktop_computers.jpg", array('width'=>'120')) !!}
-                {!! Html::image("/img/products/whatisacomputer_desktop_computers.jpg", "whatisacomputer_desktop_computers.jpg", array('width'=>'120')) !!}
-                {!! Html::image("/img/products/whatisacomputer_desktop_computers.jpg", "whatisacomputer_desktop_computers.jpg", array('width'=>'120')) !!}
+                {!! Html::image("/img/Images/1.jpg", "1.jpg", array('width'=>'120')) !!}
+                {!! Html::image("/img/Images/2.jpg", "2.jpg", array('width'=>'120')) !!}
+                {!! Html::image("/img/Images/3.jpg", "3.jpg", array('width'=>'120')) !!}
+                {!! Html::image("/img/Images/4.jpg", "4.jpg", array('width'=>'120')) !!}
+                {!! Html::image("/img/Images/5.jpeg", "5.jpeg", array('width'=>'120')) !!}
+                {!! Html::image("/img/Images/6.jpg", "6.jpg", array('width'=>'120')) !!}
+                {!! Html::image("/img/Images/7.jpg", "7.jpg", array('width'=>'120')) !!}
             </div>
         </div>
         <div class="card-body">

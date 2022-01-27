@@ -83,15 +83,15 @@ class AuthController extends Controller
 
         $token = Str::random(64);
 
-        UserVerify::create([
-            'user_id' => $createUser->id,
-            'token' => $token
-        ]);
+        // UserVerify::create([
+        //     'user_id' => $createUser->id,
+        //     'token' => $token
+        // ]);
 
-        Mail::send('email.emailVerificationEmail', ['token' => $token], function ($message) use ($request) {
-            $message->to($request->email);
-            $message->subject('Email Verification Mail');
-        });
+        // Mail::send('email.emailVerificationEmail', ['token' => $token], function ($message) use ($request) {
+        //     $message->to($request->email);
+        //     $message->subject('Email Verification Mail');
+        // });
 
         return redirect("dashboard")->withSuccess('Great! You have Successfully loggedin');
     }

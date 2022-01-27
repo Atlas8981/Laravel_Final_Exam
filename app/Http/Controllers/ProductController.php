@@ -104,7 +104,7 @@ class ProductController extends Controller
 
         $validator = Validator::make($request->all(), [
             'name' => 'required|max:20|min:3',
-            'description' => 'required|max:20|min:3',
+            'description' => 'required|max:255|min:3',
             'photo' => 'mimes:jpg,jpeg,png,gif',
             'price' => 'required|max:11',
         ]);
